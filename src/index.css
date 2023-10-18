@@ -172,6 +172,10 @@ progress {
   color: var(--color-darkest);
 }
 
+.wrong.answer {
+  transform: translateX(2rem);
+  border: 2px solid red;
+}
 .answer {
   transform: translateX(2rem);
 }
